@@ -1,0 +1,13 @@
+Spring:
+  datasource:
+   url: jdbc:sqlserver://employee-db.database.windows.net:1433;database=Employedb;user=employee@employee-db;password=Daksh@123;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+   username: employee
+   password: Daksh@123
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+     
+      
+server:
+  port: 9191
