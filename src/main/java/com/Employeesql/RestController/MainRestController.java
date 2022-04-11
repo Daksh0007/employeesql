@@ -19,7 +19,7 @@ public class MainRestController {
 	EmployeeRepo employeeRepo;
 	@GetMapping("/")
 	public String home() {
-		return "HABIBI !! WELCOME TO AGRA";
+		return "WELCOME TO AGRA";
 	}
 	
 	
